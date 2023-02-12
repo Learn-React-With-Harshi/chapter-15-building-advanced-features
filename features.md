@@ -2,46 +2,11 @@
    Documenting my learning journey of [Namaste React Live Course](https://learn.namastedev.com/) conducted by Akshay Saini
    
 
-## Machine Coding Round : 
+## Features : `Chapter-15 Building Advanced Features` (12/02/2023)
 
-- Developing/Coding -  an app during the interview 
+### Reference : 
+<ans>Component UI Hierarchy </ans> 
 
-- Many companies ask to develop in `HTML, CSS & Javascript`
-
-- Some companies ask to develop in their tech stack -> `React`
-
-- Examples of problems asked in interviews:
-todo list 
-caurosel
-infinit scroll
-counter app
-bouncing
-image gallery
-
-* Important in machine coding -> Time management *
-
-How to manage ? 
--> Practice before interview 
--> Plan before starting the interview  
--> Execution 
-
-### What are we going to build ? 
-
-*** YOUTUBE *** 
-
-1. Requirement Clarification : 
-- features 
-- tech stack and briefly say why - UI layer & Data Layer 
-JS Framework -> React 
-CSS -> Tailwind CSS
-Routing -> react-router-dom
-Web bundler -> webpack 
-Testing -> Jest 
-
-
-2. Low-level Design - There are 1000 ways to implement a project -> LLD makes sure that both you and interviewer are in the same page 
-
-Component UI Hierarchy 
 App
   Header 
   Body 
@@ -62,21 +27,23 @@ App
         VideoCard
 
 
-3. Basic features that we are going to develop in this chapter 
+### Basic features that we are going to develop in this chapter 
 
-1. Display hamburger menu, logo, search input bar, button and user login button in Header 
+1. Search for a keyword 
 
-2. Display List of menus in Sidebar (hardcoded for now)
+2. Fetch list of videos that matches the keywords
 
-3. On click of hamburger menu, toggle the Sidebar
+3. Display the list of videos
 
-4. Display CategoryButtonsContainer (group of category buttons) and VideosListContainer (list of most popular videos (video card) in India) in Main Container.
+4. Implement debouncing to fetch an API only when there is a delay of 200ms while typing
 
-5. On Click of any video card, naviagte to `/watch` page along with videoId
+5. Implement Caching of searched results
 
-6. In VideoPageContainer, Play the video, and display its description like video details and comments. 
+6. 
 
-7. On right side, display the CategoryButtonsContainer and VideoListContainer (videos relevant to the currently played video)
+7. Implement nested comments feature in Video Watch Page under comments section. 
+
+All the above fetaured are generic and important which can be used in almost every application. 
 
 
 
