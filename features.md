@@ -62,7 +62,22 @@ App
         VideoCard
 
 
-3. Start Coding 
+3. Basic features that we are going to develop in this chapter 
+
+1. Display hamburger menu, logo, search input bar, button and user login button in Header 
+
+2. Display List of menus in Sidebar (hardcoded for now)
+
+3. On click of hamburger menu, toggle the Sidebar
+
+4. Display CategoryButtonsContainer (group of category buttons) and VideosListContainer (list of most popular videos (video card) in India) in Main Container.
+
+5. On Click of any video card, naviagte to `/watch` page along with videoId
+
+6. In VideoPageContainer, Play the video, and display its description like video details and comments. 
+
+7. On right side, display the CategoryButtonsContainer and VideoListContainer (videos relevant to the currently played video)
+
 
 
 

@@ -1,8 +1,6 @@
 # `Learn React With Harshi` Series 
    Documenting my learning journey of [Namaste React Live Course](https://learn.namastedev.com/) conducted by Akshay Saini
    
-   
-  
 ## Steps to be followed while coding : 
 
 Note : Before start to code, get the requirements clarified with the interviewer and create a low-level design of the app in mind.
@@ -57,7 +55,10 @@ npm install react-router-dom
 ```
 
 8. Create Components 
-
+ - Create components in the hierarchy that we imagined during low level design 
+ - Tip : Use emmet `rafce` to create a functional component code 
+ - Import them into required components
+ - Create router and provider 
 
 9. Install Redux
 ```
@@ -65,15 +66,16 @@ npm install @reduxjs/toolkit
 npm install react-redux
 ```
 
-Create store - configureStore with reducer 
-craete slice with name, initialState & reducers with action functions toogleMenu
-Provider 
-dispatch action toggleMenu in Header 
+- Create store - configureStore with reducer 
+- craete slice with name, initialState & reducers with action functions toogleMenu
+- Provider 
+- dispatch action toggleMenu in Header 
 
 useSelector -> only subscribe to portion of the store  -> in Sidebar 
 
+10. Create config.js file and place all the external API URL there.
 
-videoContainer -> use youtube api with api key
+
 
 
 
